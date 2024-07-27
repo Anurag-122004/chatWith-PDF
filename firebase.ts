@@ -3,7 +3,7 @@ import { getFirestore } from "firebase/firestore";
 import { getStorage } from "firebase/storage";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyAKUvRvWNFKMyrMj2E8qiudq2uG8oy5tDo",
+    apiKey: process.env.FIREBASE_API_KEY_CONFIIG,
     authDomain: "chatwith-pdf.firebaseapp.com",
     projectId: "chatwith-pdf",
     storageBucket: "chatwith-pdf.appspot.com",
